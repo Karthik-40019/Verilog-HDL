@@ -1,0 +1,3 @@
+Inverter Chain or a Ring oscillator is a basic Digital circuit where the circuit will acts as an 
+1. Inverter - If contains odd number of inverters.
+2. Buffer - If it contains even number of inverters.
