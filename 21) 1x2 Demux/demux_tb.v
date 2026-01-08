@@ -1,5 +1,5 @@
 `timescale 1ns/100ps
-module demux_2x1_tb;
+module demux_1x2_tb;
 reg d,s;
 wire [1:0]y;
 
