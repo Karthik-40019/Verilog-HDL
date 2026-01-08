@@ -1,21 +1,23 @@
-`timescale 1ns/100ps
-module demux_1x8_tb;
-reg d;
-reg [2:0]s;
-wire [7:0]y;
+module demux_1x8(
+input d,
+input [2:0]s,
+output reg [7:0]y
+);
 
-demux_1x8 uut(d,s,y);
-initial begin 
- 
-s=3'b000; d=1; #10;
-s=3'b001; d=1; #10;
-s=3'b010; d=1; #10;
-s=3'b011; d=1; #10;
-s=3'b100; d=1; #10;
-s=3'b101; d=1; #10;
-s=3'b110; d=1; #10;
-s=3'b111; d=1; #10;
+always @(*) begin 
+ y=8'b00000000;
 
+ case(s) 
+     3'b000: y[0] = d;
+     3'b001: y[1] = d;
+     3'b010: y[2] = d;
+     3'b011: y[3] = d;
+     3'b100: y[4] = d;
+     3'b101: y[5] = d;
+     3'b110: y[6] = d;
+     3'b111: y[7] = d;
+ endcase
 end
 endmodule
+
 
