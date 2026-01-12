@@ -1,3 +1,4 @@
+//Common Anode logic 
 module seven_segment(
 input [3:0] bcd,
 input cs,
