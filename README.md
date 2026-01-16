@@ -9,23 +9,6 @@ The goal of this repository is to:
 - Practice industry-relevant Verilog coding  
 - Prepare for VLSI / ASIC / FPGA interviews  
 
----
-
-## 📂 Code Organization (Learning Order)
-
-### 🔹 LEVEL 0: BASIC GATE PROGRAMS (Easiest)
-- Programs 1–5
-
-### 🔹 LEVEL 1: BASIC COMBINATIONAL CIRCUITS
-- Programs 6–30
-
-### 🔹 LEVEL 2: INTERMEDIATE COMBINATIONAL
-
-### 🔹 LEVEL 3: BASIC SEQUENTIAL CIRCUITS
-
-### 🔹 LEVEL 4: INTERMEDIATE SEQUENTIAL DESIGN
-
----
 
 ## 🛠 Tools Used
 - Verilog HDL  
@@ -34,7 +17,7 @@ The goal of this repository is to:
 ---
 
 ## 📈 Progress Status
-- ✅ 36 Verilog programs completed  
+- ✅ 38 Verilog programs completed  
 - 🔄 Continuously adding advanced RTL & system-level designs  
 
 ---
