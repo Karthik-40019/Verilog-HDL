@@ -9,7 +9,7 @@ The goal of this repository is to:
 - Practice industry-relevant Verilog coding  
 - Prepare for VLSI / ASIC / FPGA interviews  
 
-
+---
 ## 🛠 Tools Used
 - Verilog HDL  
 - ModelSim  
