@@ -17,7 +17,7 @@ The goal of this repository is to:
 ---
 
 ## 📈 Progress Status
-- ✅ 30+ Verilog programs completed  
+- ✅ 50 Verilog programs completed  
 - 🔄 Continuously adding advanced RTL & system-level designs  
 
 ---
