@@ -6,7 +6,7 @@ module mealy_tb_1011;
   mealy_sequence_1011 uut(clk,rst,x,z);
   always #5 clk=~clk;
   initial begin
-    clk=0; rst=1; #10;
+    clk=1; rst=1; #10;
     rst=0;
 
     //0101101101101111....1
