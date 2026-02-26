@@ -6,7 +6,7 @@ module tb_1100;
   sequence_1100 uut(clk,rst,x,z);
   always #5 clk= ~clk;
   initial begin
-    clk=0; rst=1;x=0; #10;
+    clk=1; rst=1;x=0; #10;
     rst=0;
     
     //01100110010
