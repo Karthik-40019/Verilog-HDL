@@ -5,7 +5,7 @@ module moore_tb_1001;
   seq_detector_1001 uut(clk,rst,x,z);
   always #5 clk=~clk;
   initial begin 
-    clk=0; rst=1; #10;
+    clk=1; rst=1; #10;
     rst=0;
 
     //Sequence: 0100100101
