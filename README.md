@@ -27,9 +27,3 @@ The goal of this repository is to:
 Aspiring **RTL / VLSI Design Engineer**
 
 ---
-
-## ⭐ How to Use This Repository
-1. Clone the repository  
-2. Open files in any Verilog-supported simulator  
-3. Run testbenches  
-4. Observe waveforms and understand signal behavior  
